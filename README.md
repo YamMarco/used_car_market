@@ -28,6 +28,12 @@ We've outlayed in simple words our desires:
   - corrarlation between price and: house power, engine size, owner, wheel-drive
 
 ### The data i'll be needing
+* scraped 1200 car listing off Yad2
+* selected to following filters:
+    - vehicle type: קרוסאובר, ג׳יפ, רכב משפחתי, רכב מיני, מיניוואן, טנדר
+    - Max price: 48000 ILS
+    - Year of manufaccure: 2010 at the earliest
+    - location: צפון, מרכז, השרון, חדרה
 * Car price
 * Fuel consumption rate
 * Ownership #
@@ -39,6 +45,7 @@ We've outlayed in simple words our desires:
 * user ratings and their sub-cat ratings
 
 
+
 ## 2) Colletion Phase
 
 1. I've headed to the one of the biggest online used car martket places, Yad2
@@ -46,11 +53,9 @@ We've outlayed in simple words our desires:
 3. I've marked around 1400 lisitngs over the last 30 pages on that day (28/5)
 4. Ran the scpits and got a table running 37k raw data points
 
+## 3) Processing Phase
+Now it was to convert the raw data into a dabase containing tables and categorized column values
 
 
-* scraped 1200 car listing off Yad2
-* selected to following filters:
-vehicle type: קרוסאובר, ג׳יפ, רכב משפחתי, רכב מיני, מיניוואן, טנדר
-Max price: 48 ILS
-Year of manufaccure: 2010 at the earliest
-location: צפון, מרכז, השרון, חדרה
+
+

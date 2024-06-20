@@ -1,4 +1,6 @@
-# used_car_market
+# Used Car Market Study
+
+This is a perosna; project of mine to help my family and I find a new car.
 
 
 

@@ -55,8 +55,6 @@ We've outlayed in simple words our desires:
 
 ![213](statics/1.jpg)
 
-
-
 ## 3) Processing Phase
 
 ### Cleaning in Google sheets
@@ -75,8 +73,12 @@ We've outlayed in simple words our desires:
 
 ## 4) Conclusion and Sharing Phase
 
-i connceted my SQL server to my Tableau client and got easy and fast access to my database, which i also update as i wish.
-after applying the various tables ive created from my target queries i created a vialuzions and the graph of my dashboard, present the effect of the car's color and accessories on the price, also the ability to make a drill-down anaylsis of spesici car trim and see its suqcequent rating and, cheapest region to buy it in, and its price decay over ownerships, for optimal market apparoach and saving money.
+1) i connceted my SQL server to my Tableau client and got easy and fast access to my database, which i also update as i wish.
+2) after applying the various tables ive created from my target queries i created a vialuzions and the graph of my dashboard
+* present the effect of the car's color and accessories on the price.
+* the ability to make a drill-down anaylsis of spesici car trim and see its suqcequent rating and, cheapest region to buy it in, and its price decay over ownerships, for optimal market apparoach and saving money.
+
+![213](statics/33.jpg)
 
 
 

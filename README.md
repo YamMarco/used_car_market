@@ -69,6 +69,11 @@ We've outlayed in simple words our desires:
 
 #### Approach
 
+* nulls and other "workable" values
+  - deleted rows that didnt have any rating numbers, price, range, location and name;
+  - i was lest with around 1200 listings
+  - Afterward ive indexed all the remaining rows with a quniue ID in the new created "adID" column
+
 * Clumptted string column
   - Used SPLIT, SUBSTITUTE and FILTER functions to clean and sperate the releveant values to a special column for each of them
  
@@ -82,6 +87,12 @@ We've outlayed in simple words our desires:
   - formated each column to its matcing mesuaring system (currecny, range, volume...)
     
     ![213](statics/22.jpg)
+
+* nested and clumpped car accessries
+  - copied the features  and adID columns to another table; i would like to created another connected table
+  - Used SPLIT, SUBSTITUTE and FILTER functions to extract all the possible features of each row into a range of unsorted values
+  - then ive defiend another range and each column will tick on or off (binary) if said accessory is present in said row
+  - done this over 14 accessories and binary mapped all the configuraltion each listing had
 
 ### Upload to SQL server
 

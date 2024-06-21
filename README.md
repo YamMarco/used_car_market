@@ -50,8 +50,13 @@ We've outlayed in simple words our desires:
 
 1. I've headed to the one of the biggest online used car martket places, Yad2
 2. Using WebScrapper.io start to outlay the data value and structures i want to extract
-3. I've marked around 1400 lisitngs over the last 30 pages on that day (28/5)
-4. Ran the scripts and got a table running 37k raw data points
+
+![213](statics/-1.jpg)
+
+4. I've marked around 1400 lisitngs over the last 30 pages on that day (28/5)
+5. Ran the scripts and got a table running 37k raw data points
+
+
 
 ## 3) Processing Phase
 
@@ -59,7 +64,9 @@ We've outlayed in simple words our desires:
 #### Challages: many of the coulmn are     
 * wrong data type
 * free text uncategorized values
-* serveral cloumns that are cloumped into one 
+* serveral cloumns that are cloumped into one
+
+
     
 
 

@@ -59,11 +59,27 @@ We've outlayed in simple words our desires:
 
 ## 3) Processing Phase
 
+### Cleaning in Google sheets
+
 #### Goal: to convert all raw imported data to be analyis-ready and upload it to an SQL server
 #### Challages: many of the coulmn are     
 * wrong data type
 * free text uncategorized values
 * serveral cloumns that are cloumped into one
+
+### Upload to SQL server
+
+1) After the data has been cleaned in google sheets i have exported it as CSV files and uploaded them to a client SSMS
+2) Hooked up the primary keys of the sub-tables to the main one
+3) Then started to execut various queries to uncover insights within the data
+
+## 4) Conclusion and Sharing Phase
+
+i connceted my SQL server to my Tableau client and got easy and fast access to my database, which i also update as i wish.
+after applying the various tables ive created from my target queries i created a vialuzions and the graph of my dashboard, present the effect of the car's color and accessories on the price, also the ability to make a drill-down anaylsis of spesici car trim and see its suqcequent rating and, cheapest region to buy it in, and its price decay over ownerships, for optimal market apparoach and saving money.
+
+
+
 
 
     

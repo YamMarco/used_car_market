@@ -38,9 +38,9 @@ We've outlayed in simple words our desires:
 * Fuel consumption rate
 * Ownership #
 * Car name and model, brand and sub-model
-* where it sold
+* where its sold
 * engine size
-* seats
+* num of seats
 * present features
 * user ratings and their sub-cat ratings
 
@@ -51,10 +51,18 @@ We've outlayed in simple words our desires:
 1. I've headed to the one of the biggest online used car martket places, Yad2
 2. Using WebScrapper.io start to outlay the data value and structures i want to extract
 3. I've marked around 1400 lisitngs over the last 30 pages on that day (28/5)
-4. Ran the scpits and got a table running 37k raw data points
+4. Ran the scripts and got a table running 37k raw data points
 
 ## 3) Processing Phase
-Now it was to convert the raw data into a dabase containing tables and categorized column values
+
+#### Goal: to convert all raw imported data to be analyis-ready and upload it to an SQL server
+#### Challages: many of the coulmn are     
+* wrong data type
+* free text uncategorized values
+* serveral cloumns that are cloumped into one 
+    
+
+
 
 
 

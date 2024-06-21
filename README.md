@@ -64,6 +64,21 @@ We've outlayed in simple words our desires:
 * wrong data type
 * free text uncategorized values
 * serveral cloumns that are cloumped into one
+* Numerous nulls
+* scapring errors resulting in value in the wrong column
+
+#### Approach
+
+* Clumptted string column
+  - Used SPLIT, SUBSTITUTE and FILTER functions to clean and sperate the releveant values to a special column for each of them
+    ![213](statics/3.jpg)
+
+* Fixing prices and other numberic calaucaltions
+  - Turned each sutible column to a numberic one
+  - some of the listing were priced by monthy payment (they were through a lease or just a car-funding) so i had to multipy the monthly payment by the paying period to get the full total price
+  - some of the lisitng didnt write the distatnce that the car ranged and instead gave a gurrente of quality, had to nullify it or outright delete the entire row becuase we dont have any way to verify each lisitng
+  - formated each column to its matcing mesuaring system (currecny, range, volume...)
+    ![213](statics/2.jpg)
 
 ### Upload to SQL server
 
